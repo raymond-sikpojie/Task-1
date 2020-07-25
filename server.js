@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
     });
     req.on("end", () => {
       let name = JSON.parse(queryData);
-      return res.end(`Hello ${name}, Welcome to WeJapa Internship!`);
+      return res.end(`Hello ${name}, Welcome to WeJapa Internships`);
     });
   }
 });
